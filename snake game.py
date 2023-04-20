@@ -4,12 +4,6 @@ s2 = 0
 while True:
     p = int(input("\nEnter player no:"))
     d = r.randint(1, 6)
-    print(" Dice score: ", d)import random as r
-s1 = 0
-s2 = 0
-while True:
-    p = int(input("\nEnter player no:"))
-    d = r.randint(1, 6)
     print(" Dice score: ", d)
     if p == 1:
         s1 = s1 + d
